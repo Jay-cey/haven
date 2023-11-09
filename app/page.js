@@ -60,7 +60,7 @@ export default function Home() {
       {/* Private Consultations */}
       <section className='flex flex-col md:flex-row w-full min-h-fit md:min-h-screen py-24 md:pl-24 md:pr-10 space-x-20 md:mx-auto bg-[#EBE6DF]'>
         <div className='md:w-2/5 relative place-self-center space-y-5 px-4 md:px-0'>
-          <Image src={"/image3.png"} alt="" className='rounded-md' width={340} height={30} />
+          <Image src={"/image3.png"} alt="" className='rounded-md' height={30} width={64} />
 
 
           <h4 className='text-2xl md:text-4xl font-semibold'>
@@ -147,7 +147,7 @@ export default function Home() {
       </section>
 
       {/* Call to action */}
-      <section className='flex flex-col justify-center w-full bg-[#286256] h-[40vh] text-white text-center space-y-7'>
+      <section className='flex flex-col justify-center w-full bg-[#286256] min-h-fit md:h-[40vh] text-white text-center space-y-7'>
           <div className='space-y-2'>
             <h5 className='font-semibold text-3xl'>Take our quick assessment test</h5>
             <p className='text-sm'>This would only take a few minutes. You get to see possible therapists that are your best fit</p>

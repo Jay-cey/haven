@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className='sticky top-0 w-full flex bg-white py-4 justify-around items-center z-30'>
       <div>
-        <Image src="logo.svg" alt="Haven Therapy Logo" width={138} height={64}></Image>
+        <Image src="/Logo.svg" alt="Haven Therapy Logo" width={138} height={64} />
       </div>
 
       <div className="hidden md:block">
