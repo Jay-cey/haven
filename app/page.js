@@ -60,7 +60,7 @@ export default function Home() {
       {/* Private Consultations */}
       <section className='flex flex-col md:flex-row w-full min-h-fit md:min-h-screen py-24 md:pl-24 md:pr-10 space-x-20 md:mx-auto bg-[#EBE6DF]'>
         <div className='md:w-2/5 relative place-self-center space-y-5 px-4 md:px-0'>
-          <Image src={"/image3.png"} alt="" className='rounded-md' height={30} width={64} />
+          <Image src={"/image3.png"} alt="" className='rounded-md w-full' height={30} width={64} />
 
 
           <h4 className='text-2xl md:text-4xl font-semibold'>
