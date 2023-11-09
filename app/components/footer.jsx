@@ -15,8 +15,8 @@ function Footer() {
         </div>
      );
   return (
-    <footer className='w-full min-h-[40vh] mx-auto flex flex-col py-16'>
-        <div className="w-[85%]md:grid grid-cols-4 md:mx-auto mt-5 p-4 md:p-0 space-y-3 md:space-y-0">
+    <footer className='w-[90vw] md:w-full min-h-[40vh] mx-auto flex flex-col py-16'>
+        <div className="w-[85%] md:grid grid-cols-4 md:mx-auto mt-5 p-4 md:p-0 space-y-3 md:space-y-0">
             <div>
                 <Image src={'/Logo.svg'} alt="logo" width={138} height={32} />
             </div>
