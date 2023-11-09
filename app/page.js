@@ -30,12 +30,12 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between w-full">
       <section className="h-[90vh] bg-[url('/hero.png')] bg-cover bg-right md:bg-center w-full flex justify-center items-center">
         <div className='h-full w-full bg-black/60 text-white text-center flex flex-col justify-center items-center'>
-          <div className='md:w-1/2 text-left md:text-center px-4 md:px-0'>
-            <h2 className='text-2xl md:text-5xl mt-10 font-semibold leading-tight'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
-            <p className='text-sm md:text-xl leading-snug mt-3 md:w-4/5 mx-auto'>
+          <div className='md:w-1/2 text-center px-4 md:px-0'>
+            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
+            <p className='text-md md:text-xl leading-snug mt-3 md:w-4/5 mx-auto'>
               Discover the flexibility and convenience of online professional therapy, empowering you to prioritize self-care on your terms.
             </p>
-            <div className='flex space-x-2 md:space-x-10 mt-8 w-full justify-center items-center'>
+            <div className='flex md:space-x-10 mt-8 w-full justify-around md:justify-center items-center'>
               <Link href={'#'}>
                 <button className='text-xs py-3 md:py-2 px-8 rounded-3xl bg-[#286256] md:text-sm font-medium '>
                   Individual Therapy
@@ -49,10 +49,10 @@ export default function Home() {
             </div> 
           </div>
 
-          <div className='grid grid-cols-3 divide-x mt-28 md:w-4/5'>
-            <p className='text-sm md:text-lg font-medium'>500+<span className='block text-sm font-normal'>verified therapists</span></p>
-            <p className='text-sm md:text-lg font-medium'>3000+<span className='block text-sm font-normal'>satisfied clients</span></p>
-            <p className='text-sm md:text-lg font-medium'>5+<span className='block text-sm font-normal'>years of experience</span></p>
+          <div className='grid grid-flow-row divide-y md:grid-cols-3 md:divide-x mt-12 md:mt-28 md:w-4/5'>
+            <p className='text-base md:text-lg font-medium py-2'>500+<span className='block text-sm font-normal'>verified therapists</span></p>
+            <p className='text-base md:text-lg font-medium py-2'>3000+<span className='block text-sm font-normal'>satisfied clients</span></p>
+            <p className='text-base md:text-lg font-medium py-2'>5+<span className='block text-sm font-normal'>years of experience</span></p>
           </div>
         </div>
       </section>
@@ -147,9 +147,9 @@ export default function Home() {
       </section>
 
       {/* Call to action */}
-      <section className='flex flex-col justify-center w-full bg-[#286256] min-h-fit md:h-[40vh] text-white text-center space-y-7'>
+      <section className='flex flex-col justify-center w-full bg-[#286256] min-h-fit py-7 md:h-[40vh] text-white text-center space-y-7'>
           <div className='space-y-2'>
-            <h5 className='font-semibold text-3xl'>Take our quick assessment test</h5>
+            <h5 className='font-semibold text-2xl md:text-3xl'>Take our quick assessment test</h5>
             <p className='text-sm'>This would only take a few minutes. You get to see possible therapists that are your best fit</p>
           </div>
           <Link href={'#'}>
