@@ -28,8 +28,8 @@ export default function Home() {
   }
   return (
     <main className="flex flex-col items-center justify-between w-full">
-      <section className="h-[90vh] bg-[url('/hero.png')] bg-cover bg-right md:bg-center w-full flex justify-center items-center">
-        <div className='h-full w-full bg-black/60 text-white text-center flex flex-col justify-center items-center'>
+      <section className="min-h-fit bg-[url('/hero.png')] bg-cover bg-right md:bg-center w-full flex justify-center items-center">
+        <div className='h-full w-full bg-black/60 text-white text-center flex flex-col justify-center items-center py-20'>
           <div className='w-[90vw] md:w-1/2 text-left md:text-center px-4 md:px-0'>
             <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
             <p className='text-md md:text-xl leading-snug mt-3 md:w-4/5 mx-auto'>
@@ -58,9 +58,9 @@ export default function Home() {
       </section>
 
       {/* Private Consultations */}
-      <section className='flex flex-col md:flex-row w-full min-h-fit md:min-h-screen py-24 md:pl-24 md:pr-10 space-x-20 md:mx-auto bg-[#EBE6DF]'>
+      <section className='flex flex-col md:flex-row w-full min-h-fit py-24 md:pl-24 md:pr-10 space-x-20 md:mx-auto bg-[#EBE6DF] items-center'>
         <div className='w-[90vw] md:w-2/5 relative place-self-center space-y-5 px-4 md:px-0'>
-          <Image src={"/image3.png"} alt="" className='rounded-md w-full' height={30} width={264} />
+          <Image src={"/image3.png"} alt="" className='md:hidden rounded-md w-full' height={30} width={264} />
 
 
           <h4 className='text-2xl md:text-4xl font-semibold'>
@@ -74,7 +74,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className='hidden w-3/5 md:grid grid-cols-2 grid-rows-2 justify-items-center h-full gap-32'>
+        <div className='hidden w-3/5 md:grid grid-cols-2 grid-rows-2 justify-items-center h-full gap-x-32 gap-y-12'>
           <div className='w-40 h-52 rounded-tl- rounded-br-large rounded-tr-large overflow-hidden absolute self-center z-10'>
             <Image src={"/image3.png"} layout="fill" alt="" className='object-cover' />
           </div>
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* How it works */}
-      <section className='flex flex-col w-full min-h-full py-14 md:py-0 md:h-[90vh] justify-center mx-auto bg-[#F2F1EE] space-y-14'>
+      <section className='flex flex-col w-full min-h-full py-14 md:py-20 justify-center mx-auto bg-[#F2F1EE] space-y-10'>
         <div className='self-center text-center'>
           <h4 className="font-semibold text-3xl">How it works</h4>
           <p className='font-medium'>Start your journey the easy way</p>
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Image src={'/arrow.svg'} alt='pointing arrow' width={30} height={10} className='absolute right-1/3 hidden md-this.  = this. .bind(this)'></Image>
+          <Image src={'/arrow.svg'} alt='pointing arrow' width={30} height={10} className='absolute right-1/3 hidden md:block'></Image>
 
           <div className='text-center flex flex-col items-center space-y-4'>            
             <h5 className='text-2xl font-semibold text-[#286256]'>Step 3</h5>
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Member Reviews */}
-      <section className='flex flex-col justify-center space-y-10 w-full min-h-[80vh] mx-auto my-8'>
+      <section className='flex flex-col justify-center space-y-10 md:space-y-16 w-full min-h-fit mx-auto my-20'>
         <div className='self-center text-center'>
           <h4 className="font-semibold text-3xl">Member Reviews</h4>
           <p className='font-medium'>Real stories, real results</p>
@@ -147,7 +147,7 @@ export default function Home() {
       </section>
 
       {/* Call to action */}
-      <section className='w-full bg-[#286256] min-h-fit py-7 md:h-[40vh] text-white flex justify-center'>
+      <section className='w-full bg-[#286256] min-h-fit py-7 md:py-14 text-white flex justify-center'>
           <div className="w-[90vw] flex flex-col justify-center text-center space-y-7">
             <div className='space-y-2'>
               <h5 className='font-semibold text-2xl md:text-3xl'>Take our quick assessment test</h5>
@@ -162,7 +162,7 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className='w-full min-h-fit md:min-h-screen py-14 bg-[#F2F1EE] flex flex-col text-center items-center space-y-8 md:space-y-16'>
+      <section className='w-full min-h-fit py-14 bg-[#F2F1EE] flex flex-col text-center items-center space-y-8 md:space-y-16'>
         <h5 className='font-semibold text-2xl md:text-3xl'>Frequently Asked Questions</h5>
         <div className='w-4/5 divide-y-2 divide-[#8D9190] grid grid-flow-row'>
           {accordionData.map(createAccordion)}

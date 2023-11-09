@@ -8,7 +8,7 @@ function Navbar() {
         <Image src="/Logo.svg" alt="Haven Therapy Logo" width={138} height={64} />
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden md:flex">
         <ul className="flex list-none text-sm space-x-8 font-medium tracking-tight">
             <Link href={"#"}>
                 <li>How it works</li>
@@ -29,7 +29,7 @@ function Navbar() {
       </div>
 
       <div className="space-x-4">
-        <Link href={'#'} className="hidden md:block">
+        <Link href={'#'} className="hidden md:inline">
             <button className="border border-solid border-[#286256] py-1 px-8 rounded-2xl text-[#286256] text-sm font-medium">Login</button>
         </Link>
         <Link href={"#"}>
