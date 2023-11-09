@@ -60,11 +60,11 @@ export default function Home() {
       {/* Private Consultations */}
       <section className='flex flex-col md:flex-row w-full min-h-fit md:min-h-screen py-24 md:pl-24 md:pr-10 space-x-20 md:mx-auto bg-[#EBE6DF]'>
         <div className='md:w-2/5 relative place-self-center space-y-5 px-4 md:px-0'>
-          <Image src={"/image3.png"} alt="" className='rounded-md w-full' height={30} width={64} />
+          <Image src={"/image3.png"} alt="" className='rounded-md w-full' height={30} width={264} />
 
 
           <h4 className='text-2xl md:text-4xl font-semibold'>
-            Private consultations <br /> with <span className='text-[#286256]'>verified and professional</span> therapists
+            Private consultations <br className="hidden md:block" /> with <span className='text-[#286256]'>verified and professional</span> therapists
           </h4>
           <p>
             Experience confidential and personalized consultations with our trusted therapists. Our commitment to professionalism ensures that you receive expert care tailored to your unique needs, empowering you on your path to well-being from the comfort and privacy of your home.
