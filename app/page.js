@@ -31,17 +31,17 @@ export default function Home() {
       <section className="min-h-fit bg-[url('/hero.png')] bg-cover bg-right md:bg-center w-full flex justify-center items-center">
         <div className='h-full w-full bg-black/60 text-white text-center flex flex-col justify-center items-center py-20'>
           <div className='w-[90vw] md:w-1/2 text-left md:text-center px-4 md:px-0'>
-            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
-            <p className='text-md md:text-xl leading-snug mt-3 md:w-4/5 mx-auto'>
+            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight w-3/4'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
+            <p className=' md:block text-xs md:text-xl leading-snug mt-2 md:mt-3 md:w-4/5 mx-auto'>
               Discover the flexibility and convenience of online professional therapy, empowering you to prioritize self-care on your terms.
             </p>
-            <div className='flex md:space-x-10 mt-8 w-full justify-around md:justify-center items-center'>
+            <div className='flex flex-col space-y-3 md:flex-row md:space-x-10 mt-4 md:mt-8 w-full justify-around md:justify-center'>
               <Link href={'#'}>
                 <button className='text-xs py-3 md:py-2 px-8 rounded-3xl bg-[#286256] md:text-sm font-medium '>
                   Individual Therapy
                 </button>
               </Link>
-              <Link href={'#'}>
+              <Link href={'#'} className='hidden md:inline-block'>
                 <button className='text-xs border border-solid border-white py-2 px-8 rounded-3xl text-white md:text-sm font-medium'>
                   Couples Therapy
                 </button>
@@ -60,7 +60,7 @@ export default function Home() {
       {/* Private Consultations */}
       <section className='flex flex-col md:flex-row w-full min-h-fit py-24 md:pl-24 md:pr-10 space-x-20 md:mx-auto bg-[#EBE6DF] items-center'>
         <div className='w-[90vw] md:w-2/5 relative place-self-center space-y-5 px-4 md:px-0'>
-          <Image src={"/image3.png"} alt="" className='md:hidden rounded-md w-full' height={30} width={264} />
+          <Image src={"/image3.png"} alt="" className='md:hidden rounded-md w-full' height={130} width={264} />
 
 
           <h4 className='text-2xl md:text-4xl font-semibold'>

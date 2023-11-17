@@ -33,7 +33,7 @@ function Navbar() {
             <button className="border border-solid border-[#286256] py-1 px-8 rounded-2xl text-[#286256] text-sm font-medium">Login</button>
         </Link>
         <Link href={"#"}>
-            <button className="border bg-[#286256] py-1 px-6 rounded-2xl font-medium text-sm text-white">Get Started</button>
+            <button className="border bg-[#286256] py-2 px-6 rounded-2xl font-medium text-sm text-white">Get Started</button>
         </Link>
       </div>
     </nav>
