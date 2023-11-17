@@ -37,11 +37,11 @@ export default function Home() {
             </p>
             <div className='flex flex-col space-y-3 md:flex-row md:space-x-10 mt-4 md:mt-8 w-full justify-around md:justify-center items-center'>
               <Link href={'#'}>
-                <button className='text-xs py-3 md:py-2 px-8 rounded-3xl bg-[#286256] md:text-sm font-medium '>
+                <button className='text-xs py-3 md:py-3 px-8 rounded-3xl bg-[#286256] md:text-sm font-medium '>
                   Individual Therapy
                 </button>
               </Link>
-              <Link href={'#'} className='hidden md:inline-block'>
+              <Link href={'#'} className='hidden md:block'>
                 <button className='text-xs border border-solid border-white py-2 px-8 rounded-3xl text-white md:text-sm font-medium'>
                   Couples Therapy
                 </button>
