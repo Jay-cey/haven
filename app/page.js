@@ -31,7 +31,7 @@ export default function Home() {
       <section className="min-h-fit bg-[url('/hero.png')] bg-cover bg-right md:bg-center w-full flex justify-center items-center">
         <div className='h-full w-full bg-black/60 text-white text-center flex flex-col justify-center items-center py-20'>
           <div className='w-[90vw] md:w-1/2 text-left md:text-center px-4 md:px-0'>
-            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight w-3/4'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
+            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight w-3/4 md:w-fit'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
             <p className=' md:block text-xs md:text-xl leading-snug mt-2 md:mt-3 md:w-4/5 mx-auto'>
               Discover the flexibility and convenience of online professional therapy, empowering you to prioritize self-care on your terms.
             </p>
