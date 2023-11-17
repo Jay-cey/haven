@@ -31,11 +31,11 @@ export default function Home() {
       <section className="min-h-fit bg-[url('/hero.png')] bg-cover bg-right md:bg-center w-full flex justify-center items-center">
         <div className='h-full w-full bg-black/60 text-white text-center flex flex-col justify-center items-center py-20'>
           <div className='w-[90vw] md:w-1/2 text-left md:text-center px-4 md:px-0'>
-            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight w-3/4 md:w-fit'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
+            <h2 className='text-3xl md:text-5xl mt-10 font-semibold leading-tight w-3/4 md:w-full'>Find Strength and Resilience <br className="hidden md:block" /> in Therapy</h2>
             <p className=' md:block text-xs md:text-xl leading-snug mt-2 md:mt-3 md:w-4/5 mx-auto'>
               Discover the flexibility and convenience of online professional therapy, empowering you to prioritize self-care on your terms.
             </p>
-            <div className='flex flex-col space-y-3 md:flex-row md:space-x-10 mt-4 md:mt-8 w-full justify-around md:justify-center'>
+            <div className='flex flex-col space-y-3 md:flex-row md:space-x-10 mt-4 md:mt-8 w-full justify-around md:justify-center items-center'>
               <Link href={'#'}>
                 <button className='text-xs py-3 md:py-2 px-8 rounded-3xl bg-[#286256] md:text-sm font-medium '>
                   Individual Therapy
